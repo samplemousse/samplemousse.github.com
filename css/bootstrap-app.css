@@ -1920,7 +1920,7 @@ input[type="submit"].btn.btn-mini {
   background-position: -48px 0;
 }
 .icon-envelope {
-  background-position: -72px 0;
+  background-position: -74px 0;
 }
 .icon-heart {
   background-position: -96px 0;
@@ -4559,19 +4559,22 @@ button.close {
     width: 32px;
   }
 }
-@media (max-width: 979px) {
+@media (max-width: 690px) {
   body {
     padding-top: 0;
+  }
+  .topic{
+    display: none;
   }
   .navbar-fixed-top,
   .navbar-fixed-bottom {
     position: static;
   }
   .navbar-fixed-top {
-    margin-bottom: 18px;
+    margin-bottom: 10px;
   }
   .navbar-fixed-bottom {
-    margin-top: 18px;
+    margin-top: 10px;
   }
   .navbar-fixed-top .navbar-inner,
   .navbar-fixed-bottom .navbar-inner {
@@ -4579,11 +4582,11 @@ button.close {
   }
   .navbar .container {
     width: auto;
-    padding: 0;
+    padding: 5px;
   }
   .navbar .brand {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
     margin: 0 0 0 -5px;
   }
   .nav-collapse {
@@ -4591,13 +4594,13 @@ button.close {
   }
   .nav-collapse .nav {
     float: none;
-    margin: 0 0 9px;
+    margin: 0;
   }
   .nav-collapse .nav > li {
-    float: none;
+    float: left;
   }
   .nav-collapse .nav > li > a {
-    margin-bottom: 2px;
+    margin-bottom: 0px;
   }
   .nav-collapse .nav > .divider-vertical {
     display: none;
@@ -4614,6 +4617,9 @@ button.close {
     -webkit-border-radius: 3px;
     -moz-border-radius: 3px;
     border-radius: 3px;
+  }
+  .nav-collapse .mail {
+    display: none;
   }
   .nav-collapse .btn {
     padding: 4px 10px 4px;
@@ -4638,9 +4644,9 @@ button.close {
     top: auto;
     left: auto;
     float: none;
-    display: block;
+    display: inline;
     max-width: none;
-    margin: 0 15px;
+    margin: 0 0px;
     padding: 0;
     background-color: transparent;
     border: none;
@@ -4672,6 +4678,7 @@ button.close {
   .navbar .nav-collapse .nav.pull-right {
     float: none;
     margin-left: 0;
+    display: none;
   }
   .nav-collapse,
   .nav-collapse.collapse {
@@ -4682,13 +4689,20 @@ button.close {
     display: block;
   }
   .navbar-static .navbar-inner {
-    padding-left: 10px;
-    padding-right: 10px;
+    padding-left: 0px;
+    padding-right: 0px;
   }
 }
-@media (min-width: 980px) {
+@media (min-width: 680px) {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important;
   }
+  .maintitle {
+    float: none;
+    margin: 0 20px;
+    width: 25%;
+    margin-left: 20px;
+  }
+} 
 }

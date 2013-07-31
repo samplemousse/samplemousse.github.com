@@ -9,7 +9,7 @@ p,
 .btn,
 input, 
 h1, h2, h3, h4, h5, h6  {
-	font-family: 'Droid Sans' !important;
+	font-family: 'Palatino' !important;
 	font-style: normal;
 	font-weight: 400 !important;
 }
@@ -37,9 +37,10 @@ p {
 	}
 	.brand {
 		float: left;
-		display: block;
+		display: none;
 		margin-left: -20px;
-		font-size: 20px;
+		margin-top: 2px;
+		font-size: 30px;
 		font-weight: 200;
 		line-height: 1;
 	}	
@@ -52,24 +53,36 @@ p {
 	}
 	.navbar .nav li a {
 		color: white;
-		font-family: 'Droid Sans' !important;
+		font-family: 'Geneva' !important;
 		font-style: normal;
-		font-weight: 400 !important;
-		font-size: 14px;	
+		font-weight: 500 !important;
+		font-size: 15px;	
 	}
 	.navbar li.dropdown a{
 		color: #999;
 	}
 .topic {
-	background: #262626 url(../img/patterns/px_by_Gre3g.png) repeat;
+	background: #FFF;
 	border-top: 1px solid #555;
+	margin-left: 20px;
 	}
 	.inner-topic {
-		color: white;
-		padding: 50px 0;		
+		color: black;
+		padding: 0 0px;
+		float: none;
 	}
+	.inner-topic h2 {
+		font-family: 'Geneva' !important;
+		font-style: normal;
+		font-weight: 500 !important;
+		font-size: 24px;
+		float: none;
+	}
+.maintitle {
+    margin-left: 20px;
+  }
 .intro {
-	background: #CCC url(../img/patterns/bg_main_light.jpg);
+	background: #CCC url(../img/patterns/bg_main_dark.jpg);
 	font-size: 13px;
 	line-height: 18px;
 	padding: 20px 0 25px 0;
@@ -98,7 +111,7 @@ p {
 		font-weight: 24px;
 	}
 	.wii-feature {
-		margin: 20px 0;
+		margin: 0px 0;
 		padding: 0;
 		max-width: 625px;
 		background-color: white;
@@ -109,7 +122,7 @@ p {
 	}
 	.wii {
 		margin: 20px 0;
-		padding: 0 0 30px 0;
+		padding: 0 0 0px 0;
 		max-width: 320px;
 		background-color: white;
 		border: 1px solid #d6d5d4;
@@ -118,7 +131,7 @@ p {
 		border-radius: 6px;
 	}
 	.browser-bar {
-		height: 30px;
+		height: 10px;
 		background: #ececec;
 		-webkit-border-top-right-radius: 6px;
 		-webkit-border-top-left-radius: 6px;
@@ -140,29 +153,55 @@ p {
 			color-stop(0.8, rgb(232,232,232))
 		);
 		}
+	.browser-bar-2 {
+		height: 10px;
+		background: #ececec;
+		-webkit-border-bottom-right-radius: 6px;
+		-webkit-border-bottom-left-radius: 6px;
+		-mox-border-bottom-right-radius: 6px;
+		-mox-border-bottom-left-radius: 6px;
+		border-bottom-right-radius: 6px;
+		border-bottom-left-radius: 6px;
+		background-image: linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
+		background-image: -o-linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
+		background-image: -moz-linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
+		background-image: -webkit-linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
+		background-image: -ms-linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
+
+		background-image: -webkit-gradient(
+			linear,
+			left top,
+			left bottom,
+			color-stop(0.23, rgb(201,201,201)),
+			color-stop(0.8, rgb(232,232,232))
+		);
+		}
 	.wii-thumb {
 		padding: 0;
 		margin: 0;
 	}
 	.wii img {
 		max-width: 100%;
-		-webkit-transition: opacity 1s ease-in-out;
-		-moz-transition: opacity 1s ease-in-out;
-		-o-transition: opacity 1s ease-in-out;
-		-ms-transition: opacity 1s ease-in-out;	
-		transition: opacity 1s ease-in-out;
+		-webkit-transition: opacity .1s ease-in-out;
+		-moz-transition: opacity .1s ease-in-out;
+		-o-transition: opacity .1s ease-in-out;
+		-ms-transition: opacity .1s ease-in-out;	
+		transition: opacity .1s ease-in-out;
 	}
 	.wii img:hover {
 		opacity:0.6;
 	}		
 	.wii-desc {
-		padding: 10px 10px 15px 10px;
+		padding: 0 0 0 0;
 	}
 	.wii-meta  {
 		color: #999;
-	}		
+	}
+	.playbutton img:hover {
+		opacity:1;
+	}
 	.sidebar-wii {
-		margin: 20px 0;
+		margin: 0px 0;
 		padding: 0 0 10px 0;
 		background: #ececec;
 		border: 1px solid #d6d5d4;
@@ -185,7 +224,7 @@ p {
 		);
 	}	
 	.sidebar-wii-conte {
-		padding: 10px;
+		padding: 0px;
 	}
 	.connect {
 		width: 210px;
@@ -387,7 +426,7 @@ p {
 		text-decoration: none !important;
 		text-transform: uppercase;
 	}
-	
+
 @media (max-width: 767px) {
 	body {
 		padding-right: 0 !important;
@@ -405,6 +444,33 @@ p {
 		text-align: center;
 	}
 	.wii {
-		margin: 10px auto !important;
+		margin: 20px auto !important;
 	}
+}
+/* LANGUAGE SWITCHER */
+ul.language-switcher li a:hover,
+ul.language-switcher li a
+{
+ color: rgb(255,255,255);
+ font-family: 'Palatino';
+ 
+ 
+}
+ul.language-switcher li
+{
+border-right: thin solid rgb(255,255,255);
+padding-right: 5px;
+margin:0;
+}
+ul.language-switcher li.last
+{
+ border: none;
+}
+
+
+ul.language-switcher li a.active
+{
+ font-weight: bold;
+ /*font-size:16px;*/
+ text-decoration:underline
 }
