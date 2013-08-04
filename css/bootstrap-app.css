@@ -196,7 +196,7 @@ a:hover {
   width: 300px;
 }
 .span3 {
-  width: 220px;
+  width: 170px;
 }
 .span2 {
   width: 140px;
@@ -770,7 +770,7 @@ table .span2 {
 }
 table .span3 {
   float: none;
-  width: 204px;
+  width: 170px;
   margin-left: 0;
 }
 table .span4 {
@@ -1148,7 +1148,7 @@ input.span4, textarea.span4, .uneditable-input.span4 {
   width: 290px;
 }
 input.span3, textarea.span3, .uneditable-input.span3 {
-  width: 210px;
+  width: 170px;
 }
 input.span2, textarea.span2, .uneditable-input.span2 {
   width: 130px;
@@ -4398,7 +4398,7 @@ button.close {
     width: 228px;
   }
   .span3 {
-    width: 166px;
+    width: 165px;
   }
   .span2 {
     width: 104px;
@@ -4550,7 +4550,7 @@ button.close {
     width: 218px;
   }
   input.span3, textarea.span3, .uneditable-input.span3 {
-    width: 156px;
+    width: 170px;
   }
   input.span2, textarea.span2, .uneditable-input.span2 {
     width: 94px;
@@ -4562,6 +4562,9 @@ button.close {
 @media (max-width: 690px) {
   body {
     padding-top: 0;
+  }
+  .span3 {
+    width: 165px;
   }
   .topic{
     display: none;

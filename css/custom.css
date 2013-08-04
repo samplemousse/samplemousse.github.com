@@ -85,7 +85,7 @@ p {
 	background: #CCC url(../img/patterns/bg_main_dark.jpg);
 	font-size: 13px;
 	line-height: 18px;
-	padding: 20px 0 25px 0;
+	padding: 0px 0 0px 0;
 	border-top: solid #EEE 1px;
 	border-bottom: solid #BBB 1px;
 	/*text-shadow: 0 1px 1px white;	*/
@@ -101,7 +101,7 @@ p {
 	}
 .wrapper {
 	margin: 0;
-	padding: 25px 0;
+	padding: 20px 0;
 	background: #EEE url(../img/patterns/bg_main_dark.jpg);
 	border-top: solid #EEE 1px;	
 	border-bottom: solid #444 1px;
@@ -130,52 +130,6 @@ p {
 		-mox-border-radius: 6px;
 		border-radius: 6px;
 	}
-	.browser-bar {
-		height: 10px;
-		background: #ececec;
-		-webkit-border-top-right-radius: 6px;
-		-webkit-border-top-left-radius: 6px;
-		-mox-border-top-right-radius: 6px;
-		-mox-border-top-left-radius: 6px;
-		border-top-right-radius: 6px;
-		border-top-left-radius: 6px;
-		background-image: linear-gradient(bottom, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-		background-image: -o-linear-gradient(bottom, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-		background-image: -moz-linear-gradient(bottom, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-		background-image: -webkit-linear-gradient(bottom, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-		background-image: -ms-linear-gradient(bottom, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-
-		background-image: -webkit-gradient(
-			linear,
-			left bottom,
-			left top,
-			color-stop(0.23, rgb(201,201,201)),
-			color-stop(0.8, rgb(232,232,232))
-		);
-		}
-	.browser-bar-2 {
-		height: 10px;
-		background: #ececec;
-		-webkit-border-bottom-right-radius: 6px;
-		-webkit-border-bottom-left-radius: 6px;
-		-mox-border-bottom-right-radius: 6px;
-		-mox-border-bottom-left-radius: 6px;
-		border-bottom-right-radius: 6px;
-		border-bottom-left-radius: 6px;
-		background-image: linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-		background-image: -o-linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-		background-image: -moz-linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-		background-image: -webkit-linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-		background-image: -ms-linear-gradient(top, rgb(201,201,201) 23%, rgb(232,232,232) 80%);
-
-		background-image: -webkit-gradient(
-			linear,
-			left top,
-			left bottom,
-			color-stop(0.23, rgb(201,201,201)),
-			color-stop(0.8, rgb(232,232,232))
-		);
-		}
 	.wii-thumb {
 		padding: 0;
 		margin: 0;
@@ -432,7 +386,10 @@ p {
 		padding-right: 0 !important;
 		padding-left: 0 !important;
 	}
-	.container {
+	.span3 {
+    width: 165px;
+  }
+  	.container {
 		padding-right: 20px;
 		padding-left: 20px;
 	}
